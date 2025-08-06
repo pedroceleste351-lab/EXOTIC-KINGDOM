@@ -1,0 +1,38 @@
+{
+  "animais": [
+    {
+      "id": "1",
+      "raca": "Arara-vermelha",
+      "categoria": "ave",
+      "fotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Red-and-green-macaw-Tulum-Mexico-2019.jpg/800px-Red-and-green-macaw-Tulum-Mexico-2019.jpg",
+      "criadorId": 1
+    },
+    {
+      "id": "3",
+      "raca": "Tucano-toco",
+      "categoria": "ave",
+      "fotoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Toco_toucan_at_Happy_Hollow_Park_%26_Zoo.jpg/1024px-Toco_toucan_at_Happy_Hollow_Park_%26_Zoo.jpg",
+      "criadorId": 1
+    },
+    {
+      "id": "f18d",
+      "raca": "",
+      "categoria": "anfibio",
+      "fotoUrl": "",
+      "criadorId": 1
+    },
+    {
+      "id": "aa56",
+      "raca": "",
+      "categoria": "ave",
+      "fotoUrl": "",
+      "criadorId": 1
+    },
+    {
+      "raca": "jiboia",
+      "categoria": "reptil",
+      "fotoUrl": "https://www.infoescola.com/wp-content/uploads/2008/05/jiboia-33140947-1000x667.jpg",
+      "id": "1659"
+    }
+  ]
+}

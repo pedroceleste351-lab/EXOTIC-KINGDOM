@@ -1,34 +1,15 @@
-// src/pages/Home.jsx
-
-import { useState, useEffect } from 'react';
+import React from 'react';
 
 function Home() {
-  const [animais, setAnimais] = useState([]); // Onde a lista de animais será guardada
-
-  // useEffect é usado para executar código quando o componente é montado
-  useEffect(() => {
-    // Função para buscar dados da API (substitua pela sua URL)
-    async function fetchAnimais() {
-      try {
-        const response = await fetch('URL_DA_SUA_API/animais');
-        const data = await response.json();
-        setAnimais(data); // Guarda os dados no estado
-      } catch (error) {
-        console.error("Erro ao buscar animais:", error);
-      }
-    }
-
-    fetchAnimais();
-  }, []); // O array vazio [] faz com que isso rode apenas uma vez
-
   return (
-    <div>
-      <h1>Lista de Animais Exóticos</h1>
-      <ul>
-        {animais.map(animal => (
-          <li key={animal.id}>{animal.nome} - {animal.especie}</li>
-        ))}
-      </ul>
+    <div className="bg-white p-8 rounded-lg shadow-md text-center">
+      <h1 className="text-4xl font-bold text-gray-800 mb-4">Bem-vindo ao Exotic Kingdom!</h1>
+      <p className="text-gray-600 text-lg">
+        Explore as diferentes categorias de animais exóticos usando o menu de navegação acima.
+      </p>
+      <p className="text-gray-600 text-lg mt-2">
+        Você também pode adicionar novos animais à nossa coleção.
+      </p>
     </div>
   );
 }
